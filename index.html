@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee and Cream</title>
+</head>
+<body>
+    <header class="container-fluid bg-danger-subtle p-4">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" aria-current="page" href="#">Sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-secondary" href="#">Contato</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Cardápio
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+
+        </nav>
+        <h1 class="text-center text-body-emphasis text-success-emphasis font-monospace">Coffe and Cream</h1>
+        <p class="text-center text-secondary">Seu cantinho de aconchego</p>
+    </header>
+
+    <section class="container-fluid p-3 ps-3 pe-3 bg-light">
+        <h2 class="text-light-emphasis font-monospace"> Sobre nós </h2>
+        <br>
+        <p class="text-secondary">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egeas tincidunt. Aliquam semper, nisi quis efficitur mollis, purus nisi posuere orci, eu malesuada orci orci sit amet mi. Curabitur vitae ultricies nisi. In tincidunt, metus tempus accumsan dignissim, nunc neque facilisis nulla, id fermentum purus nisi ac velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eros erat, egestas at elementum dignissim, vehicula id orci. Praesent sed vehicula quam, mollis tristique felis. Sed ac magna eget metus luctus sollicitudin. In posuere lorem tellus, quis tristique urna consequat et. Vivamus quis quam magna. Duis pulvinar magna at urna bibendum, vitae euismod neque gravida. Suspendisse lacinia sapien vitae orci ullamcorper tempor. Duis auctor at lorem vitae suscipit. Suspendisse placerat ultricies nulla, id faucibus lacus. Sed eu risus ac urna condimentum faucibus.
+            <br><br>
+            Phasellus at elementum leo. Duis porttitor lorem cursus elit bibendum, sit amet pulvinar ante dapibus. Phasellus pellentesque, tellus sit amet pulvinar fringilla, erat odio bibendum ante, eget mattis felis est a velit. Sed et massa non elit tincidunt fringilla. Suspendisse nec ligula at lacus pharetra maximus. Etiam ut blandit nisi. Etiam mollis tincidunt suscipit. Proin lectus massa, tempus nec mauris ut, ultricies bibendum mauris. Quisque vitae ex purus.</p>
+        <br><br>
+        <div class="row text-center">
+            <figure class="col">
+                <img src="imagens2/cafeteria2.jpg" alt="Foto da faixada da cafeteria.">
+                <figcaption> Faixada da Coffee and Cream </figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="container-fluid bg-success-subtle p-3 ps-3 pe-3">
+        <h2 class="text-light-emphasis font-monospace"> Contato </h2><br>
+        <p class="text-secondary"> Preencha seus dados que em breve entraremos em contato!</p><br>
+        <form method="get" action="">
+          <fieldset>
+              <div class="mb-3"> 
+                  <label class="form-label text-secondary" for="nome">
+                      Nome:
+                  </label>
+                  <input type="text" required name="nome" class="form-control" id="nome">
+              </div>
+              
+             <div class="mb-3">
+              <label class="form-label text-secondary" for="email">
+                  Email:
+              </label>
+              <input type="email" required name="Email" class="form-control" id="email">
+             </div>
+
+             <div class="mb-3">
+              <label class="form-label text-secondary" for="telefone">
+                  Telefone:
+              </label>
+              <input type="date" name="telefone" id="telefone" class="form-control">
+             </div>
+
+             <div class="mb-3">
+              <label class="form-label text-secondary" for="comentario">
+                  Comentário:
+              </label>
+              <textarea rows="5" name="comentario" id="comentario" class="form-control"></textarea>
+             </div>
+
+             <button class="btn btn-secondary">Enviar</button>
+          </fieldset><br>
+    </section>
+
+    <section class="container-fluid p-3 ps-3 pe-3 bg-light">
+        <h2 class="text-light-emphasis font-monospace"> Cardápio </h2>
+        <p class="text-secondary"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum bibendum, felis vel lacinia feugiat, velit est imperdiet elit, eget fringilla est elit eu dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus in bibendum lacus, non placerat augue. Morbi condimentum nec ipsum ac vulputate. Proin ac arcu sit amet erat accumsan interdum. Nulla a tincidunt nisi. Sed a nisi venenatis, vulputate urna ac, luctus eros.</p><br>
+        <div class="row">
+          <figure class="col text-center">
+             <img src="imagens2/cafe.jpeg" alt="Foto de xícara de café." width="270" height="183"><br>
+             <figcaption> Variados tipos de café, do tradicional ao gourmet. </figcaption>
+          </figure>
+          <figure class="col text-center">
+             <img src="imagens2/doces.jpg" alt="Foto de doces patisserie variados." width="270" height="183"><br>
+             <figcaption> Doces patisseries saborosos, disponíveis para encomenda e também no balcão. </figcaption>
+          </figure>
+          <figure class="col text-center">
+           <img src="imagens2/waffle.jpg.webp" alt="Foto de waffle." width="270" height="183"><br>
+           <figcaption> Cardápios especiais de brunch. </figcaption>
+        </figure>
+         </div>
+    </section>
+   <section class="container-fluid bg-danger-subtle mt-5 p-3">
+    <footer>
+      <p class="text-secondary align-content-stretch"> Copyright © 2024 - GP. Souza. Todos os direitos reservados.</p><br>
+    </footer>
+   </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
